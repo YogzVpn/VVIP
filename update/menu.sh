@@ -220,7 +220,7 @@ case $opt in
 04 | 4) clear ; menu-trojan ;;
 05 | 5) clear ; menu-ss ;;
 06 | 6) clear ; wget ${UPDATE} && chmod +x update.sh && ./update.sh ;;
-07 | 7) clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
+07 | 7) clear ; wget https://raw.githubusercontent.com/pusoxx/Ver3/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 08 | 8) clear ; menu-backup ;;
 09 | 9) clear ; menu-set ;;
 10) clear ; info ;;
