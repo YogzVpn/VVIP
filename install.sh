@@ -118,7 +118,7 @@ if [ "" = "$PKG_OK" ]; then
   sleep 1
   echo -e "[ ${tyblue}NOTES${NC} ] Then run this script again"
   echo -e "[ ${tyblue}NOTES${NC} ] Notes, Script Mod By Yogz-PROJECT"
-  echo -e "[ ${tyblue}NOTES${NC} ] Tekan enter goblog biar jalan.."
+  echo -e "[ ${tyblue}NOTES${NC} ] Tekan enter sayang biar jalan.."
   read
 else
   echo -e "[ ${green}INFO${NC} ] Oke installed"
