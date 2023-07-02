@@ -240,7 +240,7 @@ function cekssh(){
 
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}          • SSH ACTIVE USERS •          ${NC} "
+echo -e " ${COLBG1}          • SSH AKTIF USER •          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 
@@ -308,7 +308,7 @@ menu-ssh
 function delssh(){
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}           • SSH DELETE USERS •         ${NC} "
+echo -e " ${COLBG1}           • HAPUS SSH USER •         ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"    
 echo "   USERNAME        EXP DATE        STATUS"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"  
@@ -352,7 +352,7 @@ menu-ssh
 function renewssh(){
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}           • RENEW SSH ACCOUNT •        ${NC} "
+echo -e " ${COLBG1}           • PERPANJANG SSH AKUN •        ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"    
 echo "   USERNAME        EXP DATE        STATUS"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"  
@@ -411,7 +411,7 @@ egrep "^$User" /etc/passwd >/dev/null
 echo -e "$Pass\n$Pass\n"|passwd $User &> /dev/null
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}         • RENEW SSH ACCOUNT •          ${NC} "
+echo -e " ${COLBG1}         • PERPANJANG SSH AKUN •          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "   Username   : $User"
 echo -e "   Days Added : $Days Days"
@@ -420,7 +420,7 @@ echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━�
 else
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}           • RENEW SSH ACCOUNT •        ${NC} "
+echo -e " ${COLBG1}           • PERPANJANG SSH AKUN •        ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "   Username Doesnt Exist      "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
