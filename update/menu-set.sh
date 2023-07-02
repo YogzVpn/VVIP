@@ -124,7 +124,7 @@ echo -e "   • VLESS                    • $resvles"
 echo -e "   • TROJAN                   • $restr"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ENTER] UNTUK KELUAR MENU"
 menu-set
 }
 function restart(){
@@ -166,7 +166,7 @@ echo -e "   [INFO] • All Services Restates Successfully  "
 sleep 1
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ENTER] UNTUK KELUAR MENU"
 menu-set
 }
 
