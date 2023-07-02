@@ -24,7 +24,7 @@ echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━�
 echo -e "  • You Dont have any existing clients!"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-vmess
 fi
 clear
@@ -33,7 +33,7 @@ echo -e " ${COLBG1}         • DELETE XRAY USER •           ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 grep -E "^### " "/etc/xray/config.json" | cut -d ' ' -f 2-3 | column -t | sort | uniq | nl
 echo -e ""
-echo -e "  • [NOTE] Press any key to back on menu"
+echo -e "  • [NOTE] PENCET [ ENTER ] UNTUK KELUAR MENU"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 read -rp "   Input Username : " user
 if [ -z $user ]; then
@@ -52,7 +52,7 @@ echo -e "   • Client Name : $user"
 echo -e "   • Expired On  : $exp"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-vmess
 fi
 }
@@ -66,7 +66,7 @@ if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
 echo -e "  • You have no existing clients!"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-vmess
 fi
 clear
@@ -75,7 +75,7 @@ echo -e " ${COLBG1}          • RENEW VMESS USER •          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 grep -E "^### " "/etc/xray/config.json" | cut -d ' ' -f 2-3 | column -t | sort | uniq | nl
 echo -e ""
-echo -e "  • [NOTE] Press any key to back on menu"
+echo -e "  • [NOTE] PENCET [ ENTER ] UNTUK KELUAR MENU"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 read -rp "   Input Username : " user
 if [ -z $user ]; then
@@ -105,7 +105,7 @@ echo -e "   Days Added  : $masaaktif Days"
 echo -e "   Expired On  : $exp4"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-vmess
 fi
 }
@@ -153,7 +153,7 @@ done
 rm -rf /tmp/other.txt
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-vmess
 }
 
@@ -174,7 +174,7 @@ if [ -z $user ]; then
 echo -e " [Error] Username cannot be empty "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu
 fi
 		CLIENT_EXISTS=$(grep -w $user /etc/xray/config.json | wc -l)
@@ -186,7 +186,7 @@ echo -e " ${COLBG1}         • CREATE VMESS USER •          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " Please choose another name."
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
-			read -n 1 -s -r -p "   Press any key to back on menu"
+			read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu
 		fi
 	done
@@ -286,7 +286,7 @@ echo -e "$COLOR1 ${NC} ${vmesslink3}"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 echo ""
 ###VTURBOTTRANSAKSINEXUPDATE
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-vmess
 }
 
