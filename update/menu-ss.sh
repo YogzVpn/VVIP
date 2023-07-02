@@ -27,7 +27,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu
 fi
 CLIENT_EXISTS=$(grep -w $user /etc/xray/config.json | wc -l)
@@ -44,7 +44,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ss
 		fi
 	done
