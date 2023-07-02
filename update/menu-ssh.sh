@@ -50,7 +50,7 @@ if grep -qw "$Login" /etc/xray/ssh.txt; then
 echo -e "  [Error] Username \e[31m$Login\e[0m already exist"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 else
 echo "$Login" >> /etc/xray/ssh.txt
@@ -60,7 +60,7 @@ if [ -z $Login ]; then
 echo -e " [Error] Username cannot be empty "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -n 1 -s -r -p "    Press any key to back on menu"
+read -n 1 -s -r -p "    PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 fi
 
@@ -69,7 +69,7 @@ if [ -z $Pass ]; then
 echo -e "  [Error] Password cannot be empty "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 fi
 read -p "   Expired (hari): " masaaktif
@@ -77,7 +77,7 @@ if [ -z $masaaktif ]; then
 echo -e "  [Error] EXP Date cannot be empty "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 fi
 clear
@@ -145,7 +145,7 @@ echo -e "  GET wss://bug.com/ HTTP/1.1[crlf]Host: [host] [crlf]Upgrade: websocke
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 fi
 echo -e ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 }
 function sshwss(){
@@ -189,7 +189,7 @@ echo -e "  [INFO] • Restart is require for Changes"
 echo -e "           to take effect"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ ENTER ] UNTUK KELUAR MENU"
 sshwss 
 }
 
@@ -206,7 +206,7 @@ echo -e "  [INFO] • Restart is require for Changes"
 echo -e "           to take effect"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ ENTER ] UNTUK KELUAR MENU"
 sshwss 
 }
 
@@ -301,7 +301,7 @@ rm -f /tmp/vpn-login-tcp.txt
 rm -f /tmp/vpn-login-udp.txt
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo "";
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 }
 
@@ -345,7 +345,7 @@ fi
 fi
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 }
 
@@ -382,7 +382,7 @@ else
 echo -e "   [INFO] Failure: User $User Not Exist."
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu
 fi
 
@@ -390,7 +390,7 @@ if [ -z $User ]; then
 echo -e "   [Error] Username cannot be empty "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu
 fi
 
@@ -426,7 +426,7 @@ echo -e "   Username Doesnt Exist      "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 fi
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 }
 
@@ -457,7 +457,7 @@ echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━�
 echo "   Total: $JUMLAH User"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 }
 
@@ -535,7 +535,7 @@ echo -e "$COLOR1 ${NC}  GET wss://bug.com/ HTTP/1.1[crlf]Host: [host] [crlf]Upgr
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 fi
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ssh
 }
 clear
