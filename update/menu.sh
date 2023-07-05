@@ -201,7 +201,7 @@ echo -e "${RED}└────────────────────�
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << MENU TUNNELING >>                    \E[0m" | lolcat    
 echo -e "${RED}└────────────────────────────────────────────────────────────┘${NC}"
-echo -e "   ${CYAN}[01]•${NC}${YELLOW}SSH${NC}        ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[08]•${NC}${YELLOW} BACKUP${NC}     ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
+echo -e "   ${CYAN}[01]${NC}${Green}•${NC}${YELLOW}SSH${NC}        ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[08]•${NC}${YELLOW} BACKUP${NC}     ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
 echo -e "   ${CYAN}[02]•${NC}${YELLOW}VMESS${NC}      ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[09]•${NC}${YELLOW} SETTING${NC}    ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
 echo -e "   ${CYAN}[03]•${NC}${YELLOW}VLESS${NC}      ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[10]•${NC}${YELLOW} INFORMATION${NC}${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
 echo -e "   ${CYAN}[04]•${NC}${YELLOW}TROJAN${NC}     ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[11]•${NC}${YELLOW} ADD DOMAIN${NC} ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
