@@ -161,7 +161,7 @@ if [ -z $host ]; then
 echo -e "  [INFO] Type Your Domain/sub domain"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu
 else
 echo "IP=$host" > /var/lib/ssnvpn-pro/ipvps.conf
@@ -201,13 +201,13 @@ echo -e "$COLOR1└────────────────────�
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << MENU TUNNELING >>                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
-echo -e "  ${CYAN}[01]${NC} • ${RED}[${NC}${YELLOW} SSH MENU ${NC}${RED}]${NC}             ${CYAN}[08]${NC} • ${RED}[${NC}${PURPLE} BACKUP MENU ${NC}${RED}]${NC} "
-echo -e "  ${CYAN}[02]${NC} • ${RED}[${NC}${YELLOW} VMESS MENU ${NC}${RED}]${NC}           ${CYAN}[09]${NC} • ${RED}[${NC}${PURPLE} SETTING MENU${NC}${RED}]${NC}  "
-echo -e "  ${CYAN}[03]${NC} • ${RED}[${NC}${YELLOW} VLESS MENU ${NC}${RED}]${NC}           ${CYAN}[10]${NC} • ${RED}[${NC}${PURPLE} INFORMATION ${NC}${RED}]${NC}     "
-echo -e "  ${CYAN}[04]${NC} • ${RED}[${NC}${YELLOW} TROJAN MENU ${NC}${RED}]${NC}          ${CYAN}[11]${NC} • ${RED}[${NC}${PURPLE} ADD HOST/DOMAIN ${NC}${RED}]${NC}    "
-echo -e "  ${CYAN}[05]${NC} • ${RED}[${NC}${YELLOW} SSWS MENU ${NC}${RED}]${NC}            ${CYAN}[12]${NC} • ${RED}[${NC}${PURPLE} CERT XRAY ${NC}${RED}]${NC}    "
-echo -e "  ${CYAN}[06]${NC} • ${RED}[${NC}${YELLOW} UPDATE MENU${NC}${RED}]${NC}           ${CYAN}[13]${NC} • ${RED}[${NC}${PURPLE} AUTO REBOOT ${NC}${RED}]${NC}     "
-echo -e "  ${CYAN}[07]${NC} • ${RED}[${NC}${YELLOW} INSTALL UDP ${NC}${RED}]${NC}          ${CYAN}[14]${NC} • ${RED}[${NC}${PURPLE} MENU BOT ${NC}${RED}]${NC} "
+echo -e "  ${CYAN}[01]${NC} • ${RED}[${NC}${YELLOW} SSH MENU ${NC}${RED}]${NC}             ${CYAN}[08]${NC} • ${RED}[${NC}${YELLOW} BACKUP MENU ${NC}${RED}]${NC} "
+echo -e "  ${CYAN}[02]${NC} • ${RED}[${NC}${YELLOW} VMESS MENU ${NC}${RED}]${NC}           ${CYAN}[09]${NC} • ${RED}[${NC}${YELLOW} SETTING MENU${NC}${RED}]${NC}  "
+echo -e "  ${CYAN}[03]${NC} • ${RED}[${NC}${YELLOW} VLESS MENU ${NC}${RED}]${NC}           ${CYAN}[10]${NC} • ${RED}[${NC}${YELLOW} INFORMATION ${NC}${RED}]${NC}     "
+echo -e "  ${CYAN}[04]${NC} • ${RED}[${NC}${YELLOW} TROJAN MENU ${NC}${RED}]${NC}          ${CYAN}[11]${NC} • ${RED}[${NC}${YELLOW} ADD HOST/DOMAIN ${NC}${RED}]${NC}    "
+echo -e "  ${CYAN}[05]${NC} • ${RED}[${NC}${YELLOW} SSWS MENU ${NC}${RED}]${NC}            ${CYAN}[12]${NC} • ${RED}[${NC}${YELLOW} CERT XRAY ${NC}${RED}]${NC}    "
+echo -e "  ${CYAN}[06]${NC} • ${RED}[${NC}${YELLOW} UPDATE MENU${NC}${RED}]${NC}           ${CYAN}[13]${NC} • ${RED}[${NC}${YELLOW} AUTO REBOOT ${NC}${RED}]${NC}     "
+echo -e "  ${CYAN}[07]${NC} • ${RED}[${NC}${YELLOW} INSTALL UDP ${NC}${RED}]${NC}          ${CYAN}[14]${NC} • ${RED}[${NC}${YELLOW} MENU BOT ${NC}${RED}]${NC} "
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "              << SCRIPT MULTIPORT TUNNELING >>                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
