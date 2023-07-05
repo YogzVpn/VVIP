@@ -176,7 +176,7 @@ fi
 }
 clear
 clear
-echo -e "${BIWhite}${UWhite}┌────────────────────────────────────────────────────────────┐${NC}"
+echo -e "${BIWhite}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                      << INFORMASI VPS >>                    \E[0m" | lolcat    
 echo -e "${BICyan}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${BLUE}• ${GREEN}Sever Uptime        ${NC}= $( uptime -p  | cut -d " " -f 2-10000 ) "
