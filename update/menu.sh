@@ -205,7 +205,7 @@ echo -e "   ${CYAN}[01]•${NC}${YELLOW}SSH${NC}        ${BLUE}[${NC}${CYAN}MENU
 echo -e "   ${CYAN}[02]•${NC}${YELLOW}VMESS${NC}      ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[09]•${NC}${YELLOW} SETTING${NC}    ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
 echo -e "   ${CYAN}[03]•${NC}${YELLOW}VLESS${NC}      ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[10]•${NC}${YELLOW} INFORMATION${NC}${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
 echo -e "   ${CYAN}[04]•${NC}${YELLOW}TROJAN${NC}     ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[11]•${NC}${YELLOW} ADD DOMAIN${NC} ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
-echo -e "   ${CYAN}[05]•${NC}${YELLOW}SSWS${NC}       ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[12]•${NC}${YELLOW} CERT XRAY${NC}  ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
+echo -e "   ${CYAN}[05]•${NC}${YELLOW}SDSK${NC}       ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[12]•${NC}${YELLOW} CERT XRAY${NC}  ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
 echo -e "   ${CYAN}[06]•${NC}${YELLOW}UPDATE${NC}     ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[13]•${NC}${YELLOW} AUTO REBOOT${NC}${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
 echo -e "   ${CYAN}[07]•${NC}${YELLOW}INSTALL UDP${NC}${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}          ${CYAN}[14]•${NC}${YELLOW} BOT${NC}        ${BLUE}[${NC}${CYAN}MENU${NC}${BLUE}]${NC}"
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
