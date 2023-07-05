@@ -18,7 +18,7 @@ cat log-install.txt
 echo -e ""
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu
 esac
 
