@@ -170,7 +170,7 @@ echo "  [INFO] Dont forget to renew cert"
 echo ""
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo ""
-read -n 1 -s -r -p "  Press any key to Renew Cret"
+read -n 1 -s -r -p "  PENCET [ ENTER ] UNTUK RENEW"
 crtxray
 fi
 }
@@ -192,7 +192,7 @@ echo -e "  ${BLUE}• ${GREEN}Developer           ${NC}= YogzVPN Tunneling ${NC}
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat    
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "      ${COLOR2} SSH Websocket${NC}: ${GREEN}ON ${NC}   NGINX${NC}: ${status_nginx}   XRAY${NC} : ${status_xray}  "
+echo -e "      ${COLOR2}[ SSH Websocket${NC}: ${GREEN}ON ]${NC}  [ NGINX${NC}: ${status_nginx} ] [ XRAY${NC} : ${status_xray} ] "
 echo -e "${RED}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "${RED}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  ${RED}│"
