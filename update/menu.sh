@@ -177,7 +177,7 @@ fi
 clear
 clear
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                      << INFORMASI VPS >>                    \E[0m" | lolcat    ${NC}"
+echo -e "                      << INFORMASI VPS >>                    \E[0m" | lolcat    
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${BLUE}• ${GREEN}Sever Uptime        ${NC}= $( uptime -p  | cut -d " " -f 2-10000 ) "
 echo -e "  ${BLUE}• ${GREEN}Current Time        ${NC}= $( date -d "0 days" +"%d-%m-%Y | %X" )"
@@ -190,7 +190,7 @@ echo -e "  ${BLUE}• ${GREEN}Clients Name        ${NC}= ${YELLOW}$Name ${NC}"
 echo -e "  ${BLUE}• ${GREEN}Script Exfire       ${NC}= ${YELLOW}$Exp ${NC}"
 echo -e "  ${BLUE}• ${GREEN}Developer           ${NC}= YogzVPN Tunneling ${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat    ${NC}"
+echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat    
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "      ${COLOR2}[ SSH Websocket${NC}: ${GREEN}ON ${NC}]  [ NGINX${NC}: ${status_nginx} ] [ XRAY${NC} : ${status_xray} ] "
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
@@ -199,7 +199,7 @@ echo -e "$COLOR1│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJ
 echo -e "$COLOR1│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC    $COLOR1│"
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                     << MENU TUNNELING >>                    \E[0m" | lolcat    ${NC}"
+echo -e "                     << MENU TUNNELING >>                    \E[0m" | lolcat    
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${CYAN}[01]${NC} • ${RED}[${NC}${YELLOW} SSH MENU ${NC}${RED}]${NC}             ${CYAN}[08]${NC} • ${RED}[${NC}${YELLOW} BACKUP MENU ${NC}${RED}]${NC} "
 echo -e "  ${CYAN}[02]${NC} • ${RED}[${NC}${YELLOW} VMESS MENU ${NC}${RED}]${NC}           ${CYAN}[09]${NC} • ${RED}[${NC}${YELLOW} SETTING MENU${NC}${RED}]${NC}  "
@@ -209,7 +209,7 @@ echo -e "  ${CYAN}[05]${NC} • ${RED}[${NC}${YELLOW} SSWS MENU ${NC}${RED}]${NC
 echo -e "  ${CYAN}[06]${NC} • ${RED}[${NC}${YELLOW} UPDATE MENU${NC}${RED}]${NC}           ${CYAN}[13]${NC} • ${RED}[${NC}${YELLOW} AUTO REBOOT ${NC}${RED}]${NC}     "
 echo -e "  ${CYAN}[07]${NC} • ${RED}[${NC}${YELLOW} INSTALL UDP ${NC}${RED}]${NC}          ${CYAN}[14]${NC} • ${RED}[${NC}${YELLOW} MENU BOT ${NC}${RED}]${NC} "
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "              << SCRIPT MULTIPORT TUNNELING >>                    \E[0m" | lolcat${NC}"
+echo -e "              << SCRIPT MULTIPORT TUNNELING >>                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e ""
 echo -ne " Select menu : "; read opt
