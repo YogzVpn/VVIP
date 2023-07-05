@@ -195,8 +195,8 @@ echo -e "${RED}┌────────────────────�
 echo -e "      ${COLOR2}[ SSH Websocket${NC}: ${GREEN}ON ${NC}]  [ NGINX${NC}: ${status_nginx} ] [ XRAY${NC} : ${status_xray} ] "
 echo -e "${RED}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "${RED}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  $COLOR1│"
-echo -e "${RED}│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC    $COLOR1│"
+echo -e "${RED}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  ${RED}│"
+echo -e "${RED}│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC    ${RED}│"
 echo -e "${RED}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << MENU TUNNELING >>                    \E[0m" | lolcat    
