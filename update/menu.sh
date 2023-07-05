@@ -190,7 +190,7 @@ echo -e "  ${BLUE}• ${GREEN}Clients Name        ${NC}= ${YELLOW}$Name ${NC}"
 echo -e "  ${BLUE}• ${GREEN}Script Exfire       ${NC}= ${YELLOW}$Exp ${NC}"
 echo -e "  ${BLUE}• ${GREEN}Developer           ${NC}= YogzVPN Tunneling ${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat
+echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat    ${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "      ${COLOR2}[ SSH Websocket${NC}: ${GREEN}ON ${NC}]  [ NGINX${NC}: ${status_nginx} ] [ XRAY${NC} : ${status_xray} ] "
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
