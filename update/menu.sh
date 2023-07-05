@@ -176,9 +176,9 @@ fi
 }
 clear
 clear
-echo -e "${BIBlue}┌────────────────────────────────────────────────────────────┐${NC}"
+echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                      << INFORMASI VPS >>                    \E[0m" | lolcat    
-echo -e "${BIBlue}└────────────────────────────────────────────────────────────┘${NC}"
+echo -e "${RED}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${BLUE}• ${GREEN}Sever Uptime        ${NC}= $( uptime -p  | cut -d " " -f 2-10000 ) "
 echo -e "  ${BLUE}• ${GREEN}Current Time        ${NC}= $( date -d "0 days" +"%d-%m-%Y | %X" )"
 echo -e "  ${BLUE}• ${GREEN}Operating System    ${NC}= $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g')( $(uname -m))"
@@ -187,8 +187,8 @@ echo -e "  ${BLUE}• ${GREEN}Server IP           ${NC}= ${IP}"
 echo -e "  ${BLUE}• ${GREEN}ISP-VPS             ${NC}= ${ISP}"
 echo -e "  ${BLUE}• ${GREEN}City                ${NC}= ${CITY}"
 echo -e "  ${BLUE}• ${GREEN}Clients Name        ${NC}= ${YELLOW}$Name ${NC}"
-echo -e "  ${BLUE}• ${GREEN}Script Exfire       ${NC}= ${YELLOW}$Exp ${NC}"
-echo -e "  ${BLUE}• ${GREEN}Developer           ${NC}= YogzVPN Tunneling ${NC}"
+echo -e "  ${BLUE}• ${GREEN}Script Expired      ${NC}= ${YELLOW}$Exp ${NC}"
+echo -e "  ${BLUE}• ${GREEN}Owner Script        ${NC}= YogzVPN Tunneling ${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat    
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
