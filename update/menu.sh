@@ -177,7 +177,7 @@ fi
 clear
 clear
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                      << INFORMASI VPS >>                    \E[0m" | lolcat    
+echo -e "                      << INFORMASI VPS >>                    \E[0m" | lolcat   ${NC}" 
 echo -e "${RED}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${BLUE}• ${GREEN}Sever Uptime        ${NC}= $( uptime -p  | cut -d " " -f 2-10000 ) "
 echo -e "  ${BLUE}• ${GREEN}Current Time        ${NC}= $( date -d "0 days" +"%d-%m-%Y | %X" )"
