@@ -18,16 +18,16 @@ chmod +x /usr/local/bin/reboot_otomatis
 fi
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL
 clear
-echo -e "\e[31m※\e[0m \e[33mPOWER BY XlordVPN\e[0m \e[31m※\e[0m"
+echo -e "\e[31m※\e[0m \e[33mPOWER BY YogzVPN\e[0m \e[31m※\e[0m"
     echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
   echo -e " \e[1;97;101m           AUTO REBOOT VPS              \e[0m"
   echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo "1.  Set Auto-Reboot 1 Jam Bro"
-echo "2.  Set Auto-Reboot 6 Jam Bro"
-echo "3.  Set Auto-Reboot 12 Jam Bro"
-echo "4.  Set Auto-Reboot 1 Hari Bro"
-echo "5.  Set Auto-Reboot 1 Minggu Bro"
-echo "6.  Set Auto-Reboot 1 Bulan Bro"
+echo "1.  Atur Auto-Reboot 1 Jam"
+echo "2.  Atur Auto-Reboot 6 Jam"
+echo "3.  Atur Auto-Reboot 12 Jam"
+echo "4.  Atur Auto-Reboot 1 Hari"
+echo "5.  Atur Auto-Reboot 1 Minggu"
+echo "6.  Atur Auto-Reboot 1 Bulan"
 echo "7.  Nonaktifkan Auto-Reboot"
 echo "8.  Lihat Reboot Log"
 echo "9.  Hapus Reboot Log"
