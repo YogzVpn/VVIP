@@ -220,14 +220,14 @@ echo -e "█▲▲▲▲▲   ╚╩╝╚══╝─╚╝─╚╝─╚╩�
 echo -e "█████████ " | lolcat
 echo -e " ██ ██ " | lolcat
 echo -e "════════════════════════════════════════" | lolcat
-echo -e "            [Free Internet]" | lolcat
+echo -e "            [YOGZ VPN STORE]" | lolcat
 echo -e "════════════════════════════════════════" | lolcat
-    echo -e "${red}    ♦️${NC} ${green} CUSTOM SETUP DOMAIN VPS     ${NC}"
+    echo -e "${red}    ♦️${NC} ${green} ATUR DOMAIN VPS ANDA    ${NC}"
     echo -e "${red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
     echo "1. Use Domain From Script / Gunakan Domain Dari Script"
     echo "2. Choose Your Own Domain / Pilih Domain Sendiri"
     echo -e "${red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-    read -rp "Choose Your Domain Installation : " dom 
+    read -rp "Silahkan Pilih Angka Di Atas Untuk Install  : " dom 
 
     if test $dom -eq 1; then
     clear
@@ -352,7 +352,7 @@ fi
 curl -sS ifconfig.me > /etc/myipvps
 
 echo " "
-echo "=====================-[ AutoScript Yogz-Project ]-===================="
+echo "=====================-[ AutoScript Yogz-Tunneling ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -398,7 +398,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Yogz-PROJECT  ]-==============="
+echo "===============-[ Script Yogz-Tunneling  ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
