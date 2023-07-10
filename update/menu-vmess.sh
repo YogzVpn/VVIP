@@ -259,10 +259,10 @@ curl -s --max-time $TIMES -d "chat_id=$CHATIDGC&disable_web_page_preview=1&text=
 clear
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}        • SUKSES CREATE VMESS •           ${NC} "
+echo -e " ${COLBG1}        • Xray/Vmess Account •           ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$COLOR1 ${NC} Remarks       : ${user}"
-echo -e "$COLOR1 ${NC} Expired On    : $exp" 
+echo -e "$COLOR1 ${NC} Expired       : $exp" 
 echo -e "$COLOR1 ${NC} Domain        : ${domain}" 
 echo -e "$COLOR1 ${NC} Port TLS      : ${tls}" 
 echo -e "$COLOR1 ${NC} Port none TLS : ${none}" 
@@ -294,10 +294,10 @@ clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m          MENU MANAGER VMES           \E[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[1;93m〔⎆〕 ${grenbo}1.${NC} \033[0;36mCreating a Vmess Account${NC}"
-echo -e "\033[1;93m〔⎆〕 ${grenbo}2.${NC} \033[0;36mRenew a Vmess Account${NC}"
-echo -e "\033[1;93m〔⎆〕 ${grenbo}3.${NC} \033[0;36mDelete Vmess Account${NC}"
-echo -e "\033[1;93m〔⎆〕 ${grenbo}4.${NC} \033[0;36mCheck Vmess Account${NC}"
+echo -e "\033[1;93m〔⎆〕 ${grenbo}1.${NC} \033[0;36mBuat Vmess Akun${NC}"
+echo -e "\033[1;93m〔⎆〕 ${grenbo}2.${NC} \033[0;36mPerpanjang a Vmess Akun${NC}"
+echo -e "\033[1;93m〔⎆〕 ${grenbo}3.${NC} \033[0;36mHapus Vmess Akun${NC}"
+echo -e "\033[1;93m〔⎆〕 ${grenbo}4.${NC} \033[0;36mCek Vmess Akun${NC}"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" 
 echo -e ""
 read -p " Select menu :  "  opt
