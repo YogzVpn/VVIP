@@ -207,7 +207,7 @@ echo -e "   ${LIGHT}[03]${BLUE}•${NC} ${CYAN}VLESS${NC}      ${CYAN}[${NC}${YE
 echo -e "   ${LIGHT}[04]${BLUE}•${NC} ${CYAN}TROJAN${NC}     ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${LIGHT}[11]${BLUE}•${NC}${CYAN} ADD DOMAIN${NC} ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
 echo -e "   ${LIGHT}[05]${BLUE}•${NC} ${CYAN}SDSK${NC}       ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${LIGHT}[12]${BLUE}•${NC}${CYAN} CERT XRAY${NC}  ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
 echo -e "   ${LIGHT}[06]${BLUE}•${NC} ${CYAN}UPDATE${NC}     ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${LIGHT}[13]${BLUE}•${NC}${CYAN} AUTO REBOOT${NC}${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
-echo -e "   ${LIGHT}[07]${BLUE}•${NC} ${CYAN}INSTALL UDP${NC}${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${LIGHT}[14]${BLUE}•${NC}${CYAN} BOT${NC}        ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
+echo -e "   ${LIGHT}[07]${BLUE}•${NC} ${CYAN}INSTL UDP  ${NC}${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${LIGHT}[14]${BLUE}•${NC}${CYAN} BOT${NC}        ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "              << SCRIPT BY YOGZVPN TUNNELING >>              \E[0m" | lolcat
 echo -e "${RED}└────────────────────────────────────────────────────────────┘${NC}"
