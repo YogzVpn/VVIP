@@ -193,10 +193,10 @@ vlesslink3="vless://${uuid}@${domain}:$tls?mode=gun&security=tls&encryption=none
 systemctl restart xray
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}          • CREATE VLESS USER •         ${NC} "
+echo -e " ${COLBG1}          • Xray/Vless Account •         ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " Remarks       : ${user}" 
-echo -e " Expired On    : $exp" 
+echo -e " Expired       : $exp" 
 echo -e " Domain        : ${domain}" 
 echo -e " port TLS      : $tls" 
 echo -e " port none TLS : $none" 
@@ -226,10 +226,10 @@ clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m            MENU MANAGER VLESS          \E[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\033[1;93m〔⎆〕 ${grenbo}1.${NC} \033[0;36mCreating a Vless Account${NC}"
-echo -e "\033[1;93m〔⎆〕 ${grenbo}2.${NC} \033[0;36mRenew a Vless Account${NC}"
-echo -e "\033[1;93m〔⎆〕 ${grenbo}3.${NC} \033[0;36mDelete a Vless Account${NC}"
-echo -e "\033[1;93m〔⎆〕 ${grenbo}4.${NC} \033[0;36mCek Login Vless Account${NC}"
+echo -e "\033[1;93m〔⎆〕 ${grenbo}1.${NC} \033[0;36mBuat Vless Akun${NC}"
+echo -e "\033[1;93m〔⎆〕 ${grenbo}2.${NC} \033[0;36mPerpanjang Vless Akun${NC}"
+echo -e "\033[1;93m〔⎆〕 ${grenbo}3.${NC} \033[0;36mHapus Vless Akun${NC}"
+echo -e "\033[1;93m〔⎆〕 ${grenbo}4.${NC} \033[0;36mCek Login Vless Akun${NC}"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 read -p " Select menu :  "  opt
