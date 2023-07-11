@@ -234,7 +234,7 @@ case $opt in
 04 | 4) clear ; enabletorrent ;;
 05 | 5) clear ; menu-tcp ;;
 06 | 6) clear ; restart ;;
-07 | 7) clear ; autoboot ;;
+07 | 7) clear ; autoreboot ;;
 08 | 8) clear ; mspeed ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu-set ;;
