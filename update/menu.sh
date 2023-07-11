@@ -152,7 +152,7 @@ clear
 function add-host(){
 clear
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC} ${COLBG1}               • ADD VPS HOST •                ${NC} $COLOR1│$NC"
+echo -e "$COLOR1│${NC} ${COLBG1}               • ADD DOMAIN/HOST •                ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 read -rp "  New Host Name : " -e host
