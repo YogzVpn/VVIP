@@ -105,7 +105,7 @@ PID=`ps -ef |grep -v grep | grep sshws |awk '{print $2}'`
 
 if [[ ! -z "${PID}" ]]; then
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}           • SSH OVPN ACCOUNT  •           ${NC} "
+echo -e " ${COLBG1}           • SSH OVPN Account  •           ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " » Username   : $Login" 
 echo -e " » Password   : $Pass"
@@ -126,7 +126,7 @@ echo -e "  GET wss://bug.com/ HTTP/1.1[crlf]Host: [host] [crlf]Upgrade: websocke
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 else
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}            • SSH OVPN ACCOUNT •         ${NC} "
+echo -e " ${COLBG1}            • SSH OVPN Account •         ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " » Username   : $Login" 
 echo -e " » Password   : $Pass"
