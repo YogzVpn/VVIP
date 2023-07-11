@@ -32,7 +32,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 fi
 
@@ -44,7 +44,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 fi
 
@@ -56,7 +56,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "  Press any key to back on menu"
+read -n 1 -s -r -p "  PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 fi
 
@@ -80,7 +80,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 }
 
@@ -97,10 +97,10 @@ echo -e "$COLOR1│${NC}  • All U need Is Create a new repository "
 echo -e "$COLOR1│${NC}    & Nammed : permission "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 }
 
@@ -120,10 +120,10 @@ if [[ $daftar = $REQIP ]]; then
 echo -e "$COLOR1│${NC}  [INFO] VPS IP Already Registered!!"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 else
 echo -e "$COLOR1│${NC}  [INFO] OK! IP VPS is not Registered!"
@@ -141,10 +141,10 @@ cd
 echo -e "$COLOR1│${NC}  [INFO] Please Input client"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 fi
 
@@ -155,10 +155,10 @@ cd
 echo -e "$COLOR1│${NC}   [INFO] Please Input exp date"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 fi
 
@@ -224,7 +224,7 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}              •  •            $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 }
 function delipvps(){
@@ -245,7 +245,7 @@ echo -e "$COLOR1┌────────────────────�
 grep -E "^### " "/root/izinvps/ip" | cut -d ' ' -f 2-4 | nl -s '. '
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
 read -rp "   Please Input Number : " nombor
@@ -258,10 +258,10 @@ echo -e "$COLOR1└────────────────────�
 echo -e "$COLOR1│${NC}   [INFO] Please Input Correct Number"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 fi
 
@@ -296,10 +296,10 @@ cd
 rm -rf /root/izinvps
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 }
 
@@ -329,10 +329,10 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}   [INFO] You have no existing clients!"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 fi
 clear
@@ -343,7 +343,7 @@ echo -e "$COLOR1┌────────────────────�
 grep -E "^### " "/root/izinvps/ip" | cut -d ' ' -f 2-4 | nl -s '. '
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 until [[ ${CLIENT_NUMBER} -ge 1 && ${CLIENT_NUMBER} -le ${NUMBER_OF_CLIENTS} ]]; do
@@ -362,10 +362,10 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}   [INFO] Please Input Correct Number"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 fi
 done
@@ -381,10 +381,10 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}  [INFO] Please Input Correct Number"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 fi
 name1=$(grep -E "^### " "/root/izinvps/ip" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p) #name
@@ -419,10 +419,10 @@ cd
 rm -rf /root/izinvps
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 }
 
@@ -444,12 +444,12 @@ echo -e "$COLOR1┌────────────────────�
 grep -E "^### " "/root/izinvps/ip" | cut -d ' ' -f 2 | nl -s '. '
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 cd
 rm -rf /root/izinvps
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip
 }
 function resetipvps(){
@@ -466,10 +466,10 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}  [INFO] Github API Reseted Successfully"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK RESET API"
 menu-ip  
 }
 Isadmin=$(curl -sS https://raw.githubusercontent.com/MyRidwan/izinvps/ipuk/ip | grep $MYIP | awk '{print $5}')
@@ -484,10 +484,10 @@ echo -e "$COLOR1│${NC} [INFO] Buy Premium Membership : "
 echo -e "$COLOR1│${NC} [INFO] PM : "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to back on menu"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK KELUAR MENU"
 menu-ip  
 fi
 clear
@@ -514,10 +514,10 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1│${NC}   • You Need To Set Github API First!"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
-read -n 1 -s -r -p "   Press any key to Set API"
+read -n 1 -s -r -p "   PENCET [ ENTER ] UNTUK ATUR API"
 setapi
 fi
 stst=$(cat /etc/ssnvpn/github/gitstat)
@@ -543,7 +543,7 @@ echo -e "   $COLOR1 [00]$NC • GO BACK"
 
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • RstoreVPN •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • YogzVPN •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -p " Select menu :  "  opt
