@@ -192,11 +192,11 @@ echo -e "  ${BLUE}• ${GREEN}Developer           ${NC}= YogzVPN Tunneling ${NC}
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat    
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "      ${COLOR2}[ SSH Websocket${NC}: ${GREEN}ON ]${NC}  [ NGINX${NC}: ${status_nginx} ] [ XRAY${NC} : ${status_xray} ] "
+echo -e "      ${COLOR2}[ SSH Websocket${NC}: ${GREEN}ON ]${NC} [ NGINX${NC}: ${status_nginx} ] [ XRAY${NC} : ${status_xray} ] "
 echo -e "${RED}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "${RED}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  ${RED}│"
-echo -e "${RED}│  \033[0m ${WHITE} $ssh1        $vma           $vla          $tra               $ssa   $NC    ${RED}│"
+echo -e "${RED}│  \033[0m ${LIGHT} $ssh1        $vma           $vla          $tra               $ssa   $NC    ${RED}│"
 echo -e "${RED}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "${RED}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << MENU TUNNELING >>                    \E[0m" | lolcat    
