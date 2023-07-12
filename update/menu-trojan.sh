@@ -216,7 +216,7 @@ END
 curl -s --max-time $TIMES -d "chat_id=$CHATIDGC&disable_web_page_preview=1&text=$TRX&parse_mode=html" $URL
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}         • Xray/Trojan Account •         ${NC} "
+echo -e " ${COLBG1}           Xray/Trojan Account          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$COLOR1 ${NC} » Remarks     : ${user}" 
 echo -e "$COLOR1 ${NC} » Host        : ${domain}" 
