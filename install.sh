@@ -392,7 +392,7 @@ echo "   - Admin Control" | tee -a log-install.txt
 echo "   - Restore Data" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   >>> WhatsApp : +6281215360549 (Text Only)"  | tee -a log-install.txt
+echo "   >>> WhatsApp : +6281215360549"  | tee -a log-install.txt
 echo "   >>> Telegram : t.me/YSSHstore"  | tee -a log-install.txt
 echo ""
 echo ""
