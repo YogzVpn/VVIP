@@ -36,7 +36,7 @@ CekTwo=$(cat /etc/.$Name.ini)
         res="Expired"
     fi
 else
-res="Permission Accepted..."
+res="Perizinan Diterima..."
 fi
 }
 
@@ -46,7 +46,7 @@ PERMISSION () {
     if [ "$MYIP" = "$IZIN" ]; then
     Bloman
     else
-    res="Permission Denied!"
+    res="Perizinan Ditolak!"
     fi
     BURIQ
 }
@@ -118,7 +118,7 @@ if [ "" = "$PKG_OK" ]; then
   sleep 1
   echo -e "[ ${tyblue}NOTES${NC} ] Then run this script again"
   echo -e "[ ${tyblue}NOTES${NC} ] Notes, Script Mod By Yogz-PROJECT"
-  echo -e "[ ${tyblue}NOTES${NC} ] Tekan enter sayang biar jalan.."
+  echo -e "[ ${tyblue}NOTES${NC} ] Tekan Enter sayang biar jalan.."
   read
 else
   echo -e "[ ${green}INFO${NC} ] Oke installed"
