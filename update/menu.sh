@@ -193,7 +193,7 @@ echo -e "${CYAN}┌────────────────────�
 echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat    
 echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "      ${LIGHT}[ ${GREEN}SSH Websocket${NC}${LIGHT}: ON ]${NC} ${LIGHT}[ ${GREEN}NGINX${NC}${LIGHT}: ${status_nginx} ]${NC} ${LIGHT}[ ${GREEN}XRAY${NC}${LIGHT}: ${status_xray} ]${NC}"
-echo -e "${BICyan}└────────────────────────────────────────────────────────────┘${NC}"
+echo -e "${CYAN}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "${CYAN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  ${CYAN}│"
 echo -e "${CYAN}│ \033[0m ${LIGHT} $ssh1        $vma           $vla          $tra               $ssa   $NC   ${CYAN} │"
