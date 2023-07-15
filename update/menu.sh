@@ -176,9 +176,9 @@ fi
 }
 clear
 clear
-echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
+echo -e "${BICyan}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                      << INFORMASI VPS >>                    \E[0m" | lolcat    
-echo -e "${CYAN}└────────────────────────────────────────────────────────────┘${NC}"
+echo -e "${BICyan}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${LIGHT}• ${CYAN}Server Uptime       ${NC}=${BIGreen} $( uptime -p  | cut -d " " -f 2-10000 ) "
 echo -e "  ${LIGHT}• ${CYAN}Current Time        ${NC}=${BIGreen} $( date -d "0 days" +"%d-%m-%Y | %X" )"
 echo -e "  ${LIGHT}• ${CYAN}Operating System    ${NC}=${BIGreen} $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g')( $(uname -m))"
@@ -189,18 +189,18 @@ echo -e "  ${LIGHT}• ${CYAN}City                ${NC}=${BIGreen} ${CITY}"
 echo -e "  ${LIGHT}• ${CYAN}Clients Name        ${NC}=${YELLOW} $Name ${NC}"
 echo -e "  ${LIGHT}• ${CYAN}Script Expired      ${NC}=${YELLOW} $Exp ${NC}"
 echo -e "  ${LIGHT}• ${CYAN}Developer           ${NC}=${YELLOW} YogzVPN Tunneling ${NC}"
-echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
+echo -e "${BICyan}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat    
-echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
+echo -e "${BICyan}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "      ${COLOR2}[ SSH Websocket${NC}: ON ] [ NGINX: ${status_nginx} ] [ XRAY: ${status_xray} ]"
-echo -e "${CYAN}└────────────────────────────────────────────────────────────┘${NC}"
-echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "${CYAN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  ${CYAN}│"
-echo -e "${CYAN}│ \033[0m ${LIGHT} $ssh1        $vma           $vla          $tra               $ssa   $NC   ${CYAN} │"
-echo -e "${CYAN}└────────────────────────────────────────────────────────────┘${NC}"
-echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
+echo -e "${BICyan}└────────────────────────────────────────────────────────────┘${NC}"
+echo -e "${BICyan}┌────────────────────────────────────────────────────────────┐${NC}"
+echo -e "${BICyan}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  ${BICyan}│"
+echo -e "${BICyan}│ \033[0m ${LIGHT} $ssh1        $vma           $vla          $tra               $ssa   $NC   ${BICyan} │"
+echo -e "${BICyan}└────────────────────────────────────────────────────────────┘${NC}"
+echo -e "${BICyan}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << MENU TUNNELING >>                    \E[0m" | lolcat    
-echo -e "${CYAN}└────────────────────────────────────────────────────────────┘${NC}"
+echo -e "${BICyan}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "   ${CYAN}[${LIGHT}01${CYAN}]${RED}•${NC} ${CYAN}SSH${NC}        ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${CYAN}[${LIGHT}08${CYAN}]${RED}•${NC}${CYAN} BACKUP${NC}     ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
 echo -e "   ${CYAN}[${LIGHT}02${CYAN}]${RED}•${NC} ${CYAN}VMESS${NC}      ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${CYAN}[${LIGHT}09${CYAN}]${RED}•${NC}${CYAN} SETTING${NC}    ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
 echo -e "   ${CYAN}[${LIGHT}03${CYAN}]${RED}•${NC} ${CYAN}VLESS${NC}      ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${CYAN}[${LIGHT}10${CYAN}]${RED}•${NC}${CYAN} INFORMATION${NC}${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
@@ -208,9 +208,9 @@ echo -e "   ${CYAN}[${LIGHT}04${CYAN}]${RED}•${NC} ${CYAN}TROJAN${NC}     ${CY
 echo -e "   ${CYAN}[${LIGHT}05${CYAN}]${RED}•${NC} ${CYAN}SDSK${NC}       ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${CYAN}[${LIGHT}12${CYAN}]${RED}•${NC}${CYAN} CERT XRAY${NC}  ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
 echo -e "   ${CYAN}[${LIGHT}06${CYAN}]${RED}•${NC} ${CYAN}UPDATE${NC}     ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${CYAN}[${LIGHT}13${CYAN}]${RED}•${NC}${CYAN} AUTO REBOOT${NC}${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
 echo -e "   ${CYAN}[${LIGHT}07${CYAN}]${RED}•${NC} ${CYAN}INSTL UDP  ${NC}${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}         ${CYAN}[${LIGHT}14${CYAN}]${RED}•${NC}${CYAN} BOT${NC}        ${CYAN}[${NC}${YELLOW}MENU${NC}${CYAN}]${NC}"
-echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
+echo -e "${BICyan}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "              << SCRIPT BY YOGZVPN TUNNELING >>              \E[0m" | lolcat
-echo -e "${CYAN}└────────────────────────────────────────────────────────────┘${NC}"
+echo -e "${BICyan}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e ""
 echo -ne " Select Menu : "; read opt
 case $opt in
