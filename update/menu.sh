@@ -180,7 +180,6 @@ echo -e "${CYAN}┌────────────────────�
 echo -e "                     << INFORMASI VPS >>                    \E[0m" | lolcat    
 echo -e "${CYAN}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${LIGHT}• ${CYAN}Server Uptime       ${NC}=${BIGreen} $( uptime -p  | cut -d " " -f 2-10000 ) "
-echo -e "  ${LIGHT}• ${CYAN}Cpu Use             ${NC}=${BIGreen} $cpu_usage"
 echo -e "  ${LIGHT}• ${CYAN}Current Time        ${NC}=${BIGreen} $( date -d "0 days" +"%d-%m-%Y | %X" )"
 echo -e "  ${LIGHT}• ${CYAN}Operating System    ${NC}=${BIGreen} $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g')( $(uname -m))"
 echo -e "  ${LIGHT}• ${CYAN}Current Domain      ${NC}=${BIGreen} $( cat /etc/xray/domain )"
