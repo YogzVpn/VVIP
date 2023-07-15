@@ -192,7 +192,7 @@ echo -e "  ${LIGHT}• ${CYAN}Script Expired      ${NC}=${YELLOW} $Exp ${NC}"
 echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat    
 echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "      ${COLOR2}[ SSH Websocket${NC}: ON ] [ NGINX: ${status_nginx} ] [ XRAY: ${status_xray} ]"
+echo -e "      ${BIGreen}[ SSH Websocket${NC}: ON ] [ NGINX: ${status_nginx} ] [ XRAY: ${status_xray} ]"
 echo -e "${CYAN}└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "${CYAN}┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "${CYAN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  ${CYAN}│"
