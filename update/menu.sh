@@ -226,7 +226,7 @@ case $opt in
 11) clear ; add-host ;;
 12) clear ; crtxray ;;
 13) clear ; auto-reboot ;;
-14) clear ; wget ${BOT}xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh ;;
+14) clear ; menu-ip ;;
 999) clear ; $up2u ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu ;;
